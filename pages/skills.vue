@@ -14,9 +14,7 @@
 
               <p class="text-gray-600">
                 <span class="font-bold">{{
-                `${skill.experience} ${
-                skill.experienceYear == "m" ? "Months" : "Years"
-                }`
+                `${skill.experience} ${skill.experienceYear == "m" ? "Months" : "Years" } ${skill.bootcamp == "y" ? "+ Bootcamp Class " : ""}`
                 }}</span>
                 of experience
               </p>

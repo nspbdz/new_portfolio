@@ -18,3 +18,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+deploy netlify
+1. untuk build netlify build / npm run generate
+2.untuk deploy netlify deploy --prod 
